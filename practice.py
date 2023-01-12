@@ -31,6 +31,8 @@ phemex = ccxt.phemex(
 USDT_bal = phemex.fetch_balance()['USDT']
 pprint.pprint(USDT_bal)
 
+
 # Making an order
+
 
 
