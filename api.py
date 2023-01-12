@@ -24,13 +24,17 @@ def handleReq():
     interval = body.get('interval')
     authToken = body.get('auth_token')
     if authToken == AUTH_TOKEN:
-        print("Authorized!")
+        # print("Authorized!")
         if action == 'Buy':
             print(f"Buying ETH {interval}")
+            actions.buy()
         elif action =='Sell':
             print(f"Selling ETH {interval}")
+            actions.sell()
         else:
             print("Invalid action")
+    else:
+        print("Unauthorized attempt!")
     return 'Webhook received'
 
 app.run(port=PORT)
