@@ -49,3 +49,10 @@ def buy():
     
     # Cancel The Order
     phemex.cancel_all_orders(symbol)
+
+# Making A Sell Order
+def sell():
+    
+    symbol = 'uBTCUSD'    
+    phemex.cancel_all_orders(symbol)
+
