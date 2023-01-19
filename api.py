@@ -26,11 +26,11 @@ def handleReq():
     if authToken == AUTH_TOKEN:
         # print("Authorized!")
         if action == 'Buy':
-            print(f"Buying ETH {interval}")
-            actions.buy()
+            print(f"Longing ETH {interval}")
+            actions.long()
         elif action =='Sell':
-            print(f"Selling ETH {interval}")
-            actions.sell()
+            print(f"Shorting ETH {interval}")
+            actions.short()
         else:
             print("Invalid action")
     else:

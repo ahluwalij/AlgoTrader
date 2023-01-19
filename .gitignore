@@ -1,2 +1,8 @@
 .env
 __pycache__
+1_turtle_trending_algo/config.py
+2_correlation_algo/config.py
+3_consolidation_pop_algo/config.py
+4_nadarya_watson_algo/config.py
+5_market_maker/xconfig.py
+6_mean_reversion/config.py
