@@ -46,7 +46,7 @@ consolidation_percent = .7 # if tr is .7% of the price its considered consolidat
 
 
 def bot():
-    
+    print("Applying market conditions...")
     position_info,in_position,long = get_position(phemex,symbol) #get your current position in the market
     candles = get_candle_df(phemex,symbol,timeframe) #get the last 55 candle data for the timeframe
     tr = calc_tr(candles) #get the true range
