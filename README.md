@@ -1,4 +1,4 @@
-# Description
+# AlgoTrader
 
 This AlgoTrader will purchase short or long contracts based on famous algorithms or your own algorithm.
 The exchange used in this specific code is [Phemex](https://phemex.com/) but since we are using [ccxt](https://github.com/ccxt/ccxt),
